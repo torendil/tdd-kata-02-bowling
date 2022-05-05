@@ -6,7 +6,7 @@
 
         public void Roll(int pinsDown)
         {
-            totalScore = pinsDown;
+            totalScore += pinsDown;
         }
 
         public int Score()
